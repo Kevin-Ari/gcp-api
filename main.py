@@ -19,7 +19,11 @@ class Usuario(BaseModel):
 
 # Datos ficticios
 usuarios_db = [
-    Usuario(id=1, nombre="Ana García", email="ana.garcia@example.com", edad=28, ciudad="Buenos Aires", telefono=11-6556-4534),
+    Usuario(id=1, 
+            nombre="Ana García",
+            email="ana.garcia@example.com",
+            edad=28, ciudad="Buenos Aires",
+            telefono=11-6556-4534),
     Usuario(id=2, nombre="Carlos López", email="carlos.lopez@example.com", edad=34, ciudad="Rosario", telefono=11-3456-6767),
     Usuario(id=3, nombre="Lucía Fernández", email="lucia.fernandez@example.com", edad=22, ciudad="Córdoba", telefono=11-3455-4566),
     Usuario(id=4, nombre="Mariano Torres", email="mariano.torres@example.com", edad=40, ciudad="Mendoza", telefono=11-5678-7677),
